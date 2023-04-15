@@ -4,7 +4,7 @@ import pandas as pd
 
 driver = webdriver.Chrome("/usr/bin/chromedriver_linux64/chromedriver")
 
-driver.get('https://worker.mturk.com/projects?ref=w_pl_prvw')
+driver.get('https://worker.mturk.com/projects')
 
 title=[]
 value=[]
